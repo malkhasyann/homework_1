@@ -7,4 +7,3 @@ vowels = ['a', 'e', 'i', 'o', 'u']
 letter = input("տառը: ")
 
 print("ձայնավոր է" if letter in vowels else "բաղաձայն է" if letter != 'y' else "և՜ ձայնավոր, և՜ բաղաձայն")
-
